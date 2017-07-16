@@ -1,0 +1,16 @@
+# Autostart script
+
+# set screen resolution
+xrandr --dpi 192
+
+# start xscreensaver
+xscreensaver -nosplash &
+
+# testing this to see if .xsession is run at startup
+export TESTVAR="xsessionrc"
+
+# start up f.lux
+fluxgui &
+
+# wifi applet
+nm-applet &
