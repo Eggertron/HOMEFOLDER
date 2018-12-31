@@ -14,3 +14,4 @@ alias bu="backlight.sh 50"
 alias bd="backlight.sh -50"
 # wifi, from Ubuntu default
 alias wi="nmtui"
+alias ack="grep -rnIC 2 --color $@"
