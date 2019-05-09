@@ -1,3 +1,6 @@
+alias halfres="xrandr --auto --output eDP-1 --primary --mode 1600x900"
+alias fullres="xrandr --auto --output eDP-1 --primary --mode 3200x1800"
+
 #alias lock="mate-screensaver-command -l"
 alias lock="xscreensaver-command -lock"
 alias fixdpi="xrandr --dpi 192"
